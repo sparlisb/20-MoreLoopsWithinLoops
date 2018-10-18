@@ -185,6 +185,8 @@ def vee(r):
             print(' ', end='')
         for j in range(r - k):
             print(1 + j, end='')
+        for w in range(1):
+            print('-', end='')
         for l in range(r - k):
             print(r - l, end='')
         print()
